@@ -1,0 +1,761 @@
+<mxfile host="app.diagrams.net" modified="2023-05-10T04:17:58.640Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="emTtstPgZGUJ8IRezXYU" version="21.2.9" type="google">
+  <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="THvIdB2N3yqFJeVhvD4z-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;채용 정보 관리 시스템&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="530" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="THvIdB2N3yqFJeVhvD4z-2" value="회사 회원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="430" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="THvIdB2N3yqFJeVhvD4z-3" value="채용 정보 등록" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="340" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="THvIdB2N3yqFJeVhvD4z-4" value="등록한 채용 정보 리스트 조회" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="650" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="THvIdB2N3yqFJeVhvD4z-5" value="채용 정보 마감된 &lt;br&gt;리스트 조회" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="770" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="THvIdB2N3yqFJeVhvD4z-6" value="채용 정보 수정" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="450" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="THvIdB2N3yqFJeVhvD4z-7" value="채용 조기 마감" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="650" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="THvIdB2N3yqFJeVhvD4z-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.7;exitY=0.767;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="THvIdB2N3yqFJeVhvD4z-2" target="THvIdB2N3yqFJeVhvD4z-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="94" y="449" as="sourcePoint" />
+            <mxPoint x="262" y="413" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THvIdB2N3yqFJeVhvD4z-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.007;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.8;exitY=0.817;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="THvIdB2N3yqFJeVhvD4z-2" target="THvIdB2N3yqFJeVhvD4z-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="510" as="sourcePoint" />
+            <mxPoint x="870" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THvIdB2N3yqFJeVhvD4z-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="THvIdB2N3yqFJeVhvD4z-2" target="THvIdB2N3yqFJeVhvD4z-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="370" as="sourcePoint" />
+            <mxPoint x="90" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THvIdB2N3yqFJeVhvD4z-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.007;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="THvIdB2N3yqFJeVhvD4z-2" target="THvIdB2N3yqFJeVhvD4z-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="574" as="sourcePoint" />
+            <mxPoint x="227" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THvIdB2N3yqFJeVhvD4z-12" value="채용 정보 삭제" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="550" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="THvIdB2N3yqFJeVhvD4z-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.029;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.4;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="THvIdB2N3yqFJeVhvD4z-2" target="THvIdB2N3yqFJeVhvD4z-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="460" as="sourcePoint" />
+            <mxPoint x="261" y="488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THvIdB2N3yqFJeVhvD4z-14" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="THvIdB2N3yqFJeVhvD4z-7" target="THvIdB2N3yqFJeVhvD4z-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="620" as="sourcePoint" />
+            <mxPoint x="640" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_EsRxaXNr39jAv2G4_3R-1" value="회사 회원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="1320" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xb1e7kF9UDghLhpTketb-2" value=":채용정보 등록 UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW9feNbAllSj9TjUGjz-1" value=":채용 정보 등록" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW9feNbAllSj9TjUGjz-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0.817;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_EsRxaXNr39jAv2G4_3R-1" target="Xb1e7kF9UDghLhpTketb-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="1460" as="sourcePoint" />
+            <mxPoint x="420" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZW9feNbAllSj9TjUGjz-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Xb1e7kF9UDghLhpTketb-2" target="bZW9feNbAllSj9TjUGjz-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="465" y="1640" as="sourcePoint" />
+            <mxPoint x="250" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZW9feNbAllSj9TjUGjz-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="1370" as="sourcePoint" />
+            <mxPoint x="360" y="1430" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZW9feNbAllSj9TjUGjz-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="1570" as="sourcePoint" />
+            <mxPoint x="410" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZW9feNbAllSj9TjUGjz-19" value="&lt;span data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(255, 255, 251); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(39, 39, 38); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; --darkreader-inline-color: #ffffec; --darkreader-inline-bgcolor: #2b2b29; display: inline !important;&quot;&gt;4. 회사의 채용정보 보여줌()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1560" width="156" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bZW9feNbAllSj9TjUGjz-21" value="새로운 채용정보 등록하기" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=160;height=20;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1285" width="510" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--1" value=":채용 정보 리스트" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--2" value=":회사" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bZW9feNbAllSj9TjUGjz-1" target="K71paMH0ZI0jcNfA3QA--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1610" as="sourcePoint" />
+            <mxPoint x="440" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.117;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.675;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--2" target="bZW9feNbAllSj9TjUGjz-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1610" as="sourcePoint" />
+            <mxPoint x="440" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--5" value="1*: 회사선택()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1700" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--6" value="2. 인터페이스 시작()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1570" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="1620" as="sourcePoint" />
+            <mxPoint x="380" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--8" value="3. 회사 선택()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1348" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="314.5" y="1710" as="sourcePoint" />
+            <mxPoint x="290" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--11" value="5. 회사 채용 정보선택()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1724" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--12" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--2" target="K71paMH0ZI0jcNfA3QA--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1660" as="sourcePoint" />
+            <mxPoint x="400" y="1610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--13" value="6*. 채용 정보 상세 페이지 제공()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1739" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.717;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.248;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--13" target="K71paMH0ZI0jcNfA3QA--13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="1790" as="sourcePoint" />
+            <mxPoint x="400" y="1610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--15" value="7. 새 채용 정보 만듬()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1368" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--16" value="8. 새 채용 정보 만듬()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1580" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--17" value="9. 채용 정보 만듬()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1690" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--18" value="10. 채용 정보 등록()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1810" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.183;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.807;exitY=-0.024;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--18" target="K71paMH0ZI0jcNfA3QA--18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="1780" as="sourcePoint" />
+            <mxPoint x="449" y="1779" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--23" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;채용정보 등록 UI&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;인터페이스 시작()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사 선택()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;새 채용 정보 만듬()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1310" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--24" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;채용 정보 등록&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사의 채용정보 보여줌()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;새 채용 정보 만듬()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1310" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--25" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;회사&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사이름&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사 선택()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사 채용 정보 선택()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1558" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--26" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;채용 정보 리스트&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;업무&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;인원 수&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;신청 마감일&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: initial; color: rgb(0, 0, 0); --darkreader-inline-bgcolor: initial; --darkreader-inline-color: #fffffb;&quot;&gt;채용 정보 만듬()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1560" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--27" value="회사 회원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1945" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--28" value=":채용정보 조회 UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="2105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--29" value=":채용 정보 조회" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="2265" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--30" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0.817;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--27" target="K71paMH0ZI0jcNfA3QA--28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="2085" as="sourcePoint" />
+            <mxPoint x="425" y="2035" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--31" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--28" target="K71paMH0ZI0jcNfA3QA--29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="2265" as="sourcePoint" />
+            <mxPoint x="255" y="2275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="295" y="1995" as="sourcePoint" />
+            <mxPoint x="365" y="2055" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415" y="2195" as="sourcePoint" />
+            <mxPoint x="415" y="2255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--34" value="&lt;span data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(255, 255, 251); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(39, 39, 38); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; --darkreader-inline-color: #ffffec; --darkreader-inline-bgcolor: #2b2b29; display: inline !important;&quot;&gt;4. 회사의 채용정보 보여줌()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="2185" width="156" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--35" value="채용정보 조회하기" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=160;height=20;" vertex="1" parent="1">
+          <mxGeometry x="165" y="1910" width="510" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--36" value=":채용 정보 리스트" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="2385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--37" value=":회사" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="2385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--38" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--29" target="K71paMH0ZI0jcNfA3QA--36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="2235" as="sourcePoint" />
+            <mxPoint x="445" y="2185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--39" value="" style="endArrow=none;html=1;rounded=0;entryX=0.117;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.675;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--37" target="K71paMH0ZI0jcNfA3QA--29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="2235" as="sourcePoint" />
+            <mxPoint x="445" y="2185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--40" value="1*: 회사선택()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="2325" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--41" value="2. 인터페이스 시작()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="2195" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="2245" as="sourcePoint" />
+            <mxPoint x="385" y="2175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--43" value="3. 회사 선택()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1973" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.5" y="2335" as="sourcePoint" />
+            <mxPoint x="295" y="2365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--45" value="5. 회사 채용 정보선택()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2349" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--46" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--37" target="K71paMH0ZI0jcNfA3QA--36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="355" y="2285" as="sourcePoint" />
+            <mxPoint x="405" y="2235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--47" value="6*. 채용 정보 상세 페이지 제공()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2364" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--48" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.717;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.248;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--47" target="K71paMH0ZI0jcNfA3QA--47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="2415" as="sourcePoint" />
+            <mxPoint x="405" y="2235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--54" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;채용정보 조회 UI&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;인터페이스 시작()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사 선택()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;채용 정보 조회()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1990" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--55" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;채용 정보 등록&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사의 채용정보 보여줌()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;채용 정보 조회()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1990" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--56" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;회사&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사이름&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사 선택()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사 채용 정보 선택()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="750" y="2185" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--57" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;채용 정보 리스트&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;업무&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;인원 수&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;신청 마감일&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: initial; color: rgb(0, 0, 0); --darkreader-inline-bgcolor: initial; --darkreader-inline-color: #fffffb;&quot;&gt;채용 정보 상세 조회()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="2185" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--58" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.44;entryY=1.133;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.027;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--17" target="K71paMH0ZI0jcNfA3QA--17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="1580" as="sourcePoint" />
+            <mxPoint x="420" y="1640" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--59" value="7. 채용 정보 조회" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1998" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--60" value="8. 채용 정보 조회" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="2208" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--61" value="9. 채용 정보 상세 조회" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="2319" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--62" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="1890" as="sourcePoint" />
+            <mxPoint x="110" y="1890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--93" value="회사 회원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="2595" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--94" value=":채용정보 수정 UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="2755" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--95" value=":채용 정보 수정" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="2915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--96" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0.817;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--93" target="K71paMH0ZI0jcNfA3QA--94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="2735" as="sourcePoint" />
+            <mxPoint x="415" y="2685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--97" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--94" target="K71paMH0ZI0jcNfA3QA--95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="2915" as="sourcePoint" />
+            <mxPoint x="245" y="2925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--98" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="2645" as="sourcePoint" />
+            <mxPoint x="355" y="2705" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--99" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="2845" as="sourcePoint" />
+            <mxPoint x="405" y="2905" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--100" value="&lt;span data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(255, 255, 251); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(39, 39, 38); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; --darkreader-inline-color: #ffffec; --darkreader-inline-bgcolor: #2b2b29; display: inline !important;&quot;&gt;4. 회사의 채용정보 보여줌()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="2835" width="156" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--101" value="채용정보 수정하기" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=160;height=20;" vertex="1" parent="1">
+          <mxGeometry x="155" y="2560" width="510" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--102" value=":채용 정보 리스트" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="3035" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--103" value=":회사" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="3035" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--104" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--95" target="K71paMH0ZI0jcNfA3QA--102">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="2885" as="sourcePoint" />
+            <mxPoint x="435" y="2835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--105" value="" style="endArrow=none;html=1;rounded=0;entryX=0.117;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.675;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--103" target="K71paMH0ZI0jcNfA3QA--95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="2885" as="sourcePoint" />
+            <mxPoint x="435" y="2835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--106" value="1*: 회사선택()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="2975" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--107" value="2. 인터페이스 시작()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="2845" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--108" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="2895" as="sourcePoint" />
+            <mxPoint x="375" y="2825" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--109" value="3. 회사 선택()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="2623" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--110" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309.5" y="2985" as="sourcePoint" />
+            <mxPoint x="285" y="3015" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--111" value="5. 회사 채용 정보선택()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2999" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--112" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--103" target="K71paMH0ZI0jcNfA3QA--102">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="345" y="2935" as="sourcePoint" />
+            <mxPoint x="395" y="2885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--113" value="6*. 채용 정보 상세 페이지 제공()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="3014" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--114" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.717;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.248;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--113" target="K71paMH0ZI0jcNfA3QA--113">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="355" y="3065" as="sourcePoint" />
+            <mxPoint x="395" y="2885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--115" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;채용정보 수정 UI&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;인터페이스 시작()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사 선택()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;채용 정보 수정()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="725" y="2648" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--116" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;채용 정보 수정&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사의 채용정보 보여줌()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;채용 정보 수정()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="960" y="2648" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--117" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;회사&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사이름&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사 선택()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사 채용 정보 선택()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="725" y="2843" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--118" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;채용 정보 리스트&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;업무&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;인원 수&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;신청 마감일&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: initial; color: rgb(0, 0, 0); --darkreader-inline-bgcolor: initial; --darkreader-inline-color: #fffffb;&quot;&gt;채용 정보 상세 수정()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="970" y="2845" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--119" value="7. 채용 정보 수정" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="2648" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--120" value="8. 채용 정보 수정" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="404" y="2858" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--121" value="9. 채용 정보 상세 수정" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2969" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--122" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="2540" as="sourcePoint" />
+            <mxPoint x="100" y="2540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--123" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.004;entryY=0.424;entryDx=0;entryDy=0;exitX=0.988;exitY=0.434;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--117" target="K71paMH0ZI0jcNfA3QA--118">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="2800" as="sourcePoint" />
+            <mxPoint x="830" y="2750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--124" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="2908" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--126" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="930" y="2908" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--127" value="Liaises with▶" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="2930" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--161" value="회사 회원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="3255" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--162" value=":채용정보 삭제 UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="3415" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--163" value=":채용 정보 삭제" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="3575" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--164" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0.817;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--161" target="K71paMH0ZI0jcNfA3QA--162">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="3395" as="sourcePoint" />
+            <mxPoint x="420" y="3345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--165" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--162" target="K71paMH0ZI0jcNfA3QA--163">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="465" y="3575" as="sourcePoint" />
+            <mxPoint x="250" y="3585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--166" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="3305" as="sourcePoint" />
+            <mxPoint x="360" y="3365" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--167" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="3505" as="sourcePoint" />
+            <mxPoint x="410" y="3565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--168" value="&lt;span data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(255, 255, 251); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(39, 39, 38); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; --darkreader-inline-color: #ffffec; --darkreader-inline-bgcolor: #2b2b29; display: inline !important;&quot;&gt;4. 회사의 채용정보 보여줌()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="3495" width="156" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--169" value="채용정보 삭제하기" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=160;height=20;" vertex="1" parent="1">
+          <mxGeometry x="160" y="3220" width="510" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--170" value=":채용 정보 리스트" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="3695" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--171" value=":회사" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="3695" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--172" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--163" target="K71paMH0ZI0jcNfA3QA--170">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="3545" as="sourcePoint" />
+            <mxPoint x="440" y="3495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--173" value="" style="endArrow=none;html=1;rounded=0;entryX=0.117;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.675;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--171" target="K71paMH0ZI0jcNfA3QA--163">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="3545" as="sourcePoint" />
+            <mxPoint x="440" y="3495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--174" value="1*: 회사선택()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="3635" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--175" value="2. 인터페이스 시작()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="3505" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--176" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="3555" as="sourcePoint" />
+            <mxPoint x="380" y="3485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--177" value="3. 회사 선택()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="3283" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--178" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="314.5" y="3645" as="sourcePoint" />
+            <mxPoint x="290" y="3675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--179" value="5. 회사 채용 정보선택()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="3659" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--180" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--171" target="K71paMH0ZI0jcNfA3QA--170">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="3595" as="sourcePoint" />
+            <mxPoint x="400" y="3545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--181" value="6*. 채용 정보 상세 페이지 제공()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="3674" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--182" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.717;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.248;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--181" target="K71paMH0ZI0jcNfA3QA--181">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="3725" as="sourcePoint" />
+            <mxPoint x="400" y="3545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--183" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;채용정보 삭제 UI&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;인터페이스 시작()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사 선택()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;채용 정보 수정()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="730" y="3308" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--184" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;채용 정보 삭제&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사의 채용정보 보여줌()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;채용 정보 수정()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="965" y="3308" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--185" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;회사&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사이름&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사 선택()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사 채용 정보 선택()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="730" y="3503" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--186" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;채용 정보 리스트&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;업무&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;인원 수&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;신청 마감일&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: initial; color: rgb(0, 0, 0); --darkreader-inline-bgcolor: initial; --darkreader-inline-color: #fffffb;&quot;&gt;채용 정보 삭제()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="975" y="3505" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--187" value="7. 채용 정보 삭제" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="3308" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--188" value="8. 채용 정보 삭제" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="409" y="3518" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--189" value="9. 특정 채용 정보 삭제" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="3629" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--190" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.004;entryY=0.424;entryDx=0;entryDy=0;exitX=0.988;exitY=0.434;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--185" target="K71paMH0ZI0jcNfA3QA--186">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="785" y="3460" as="sourcePoint" />
+            <mxPoint x="835" y="3410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--191" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="885" y="3568" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--192" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="935" y="3568" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--193" value="Liaises with▶" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="885" y="3590" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--227" value="회사 회원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="3915" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--228" value=":채용정보 조회 UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="4075" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--229" value=":채용 정보 조회" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="4235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--230" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0.817;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--227" target="K71paMH0ZI0jcNfA3QA--228">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="4055" as="sourcePoint" />
+            <mxPoint x="415" y="4005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--231" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--228" target="K71paMH0ZI0jcNfA3QA--229">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="4235" as="sourcePoint" />
+            <mxPoint x="245" y="4245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--232" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="3965" as="sourcePoint" />
+            <mxPoint x="355" y="4025" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--233" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="4165" as="sourcePoint" />
+            <mxPoint x="405" y="4225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--234" value="&lt;span data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(255, 255, 251); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(39, 39, 38); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; --darkreader-inline-color: #ffffec; --darkreader-inline-bgcolor: #2b2b29; display: inline !important;&quot;&gt;4. 회사의 채용정보 보여줌()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="4155" width="156" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--235" value="채용정보 마감 리스트 조회하기" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=195;height=20;" vertex="1" parent="1">
+          <mxGeometry x="155" y="3880" width="510" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--236" value=":채용 정보 리스트" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="4355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--237" value=":회사" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="4355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--238" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--229" target="K71paMH0ZI0jcNfA3QA--236">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="4205" as="sourcePoint" />
+            <mxPoint x="435" y="4155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--239" value="" style="endArrow=none;html=1;rounded=0;entryX=0.117;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.675;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--237" target="K71paMH0ZI0jcNfA3QA--229">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="4205" as="sourcePoint" />
+            <mxPoint x="435" y="4155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--240" value="1*: 회사선택()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="4295" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--241" value="2. 인터페이스 시작()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="4165" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--242" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="4215" as="sourcePoint" />
+            <mxPoint x="375" y="4145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--243" value="3. 회사 선택()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="3943" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--244" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309.5" y="4305" as="sourcePoint" />
+            <mxPoint x="285" y="4335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--245" value="5. 회사 채용 정보선택()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="4319" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--246" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--237" target="K71paMH0ZI0jcNfA3QA--236">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="345" y="4255" as="sourcePoint" />
+            <mxPoint x="395" y="4205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--247" value="6*. 채용 정보 상세 페이지 제공()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="4334" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--248" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.717;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.248;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--247" target="K71paMH0ZI0jcNfA3QA--247">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="355" y="4385" as="sourcePoint" />
+            <mxPoint x="395" y="4205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--249" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;채용정보 삭제 UI&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;인터페이스 시작()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사 선택()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;채용 정보 수정()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="725" y="3968" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--250" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;채용 정보 조회&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사의 채용정보 보여줌()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;채용 정보 수정()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="960" y="3968" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--251" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;회사&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사이름&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사 선택()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;회사 채용 정보 선택()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="725" y="4163" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--252" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;채용 정보 리스트&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;업무&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;인원 수&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;신청 마감일&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: initial; color: rgb(0, 0, 0); --darkreader-inline-bgcolor: initial; --darkreader-inline-color: #fffffb;&quot;&gt;채용 정보 마감 리스트 조회()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="970" y="4165" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--253" value="7. 채용 정보 마감 조회" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="3968" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--254" value="8. 채용 정보 마감 리스트 조회" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="405" y="4175" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--255" value="9. 채용 정보 마감 리스트 조회" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="4289" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--256" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.004;entryY=0.424;entryDx=0;entryDy=0;exitX=0.988;exitY=0.434;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--251" target="K71paMH0ZI0jcNfA3QA--252">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="4120" as="sourcePoint" />
+            <mxPoint x="830" y="4070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--257" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="4228" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--258" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="930" y="4228" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--259" value="Liaises with▶" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="4250" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--260" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.44;entryY=1.133;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.027;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="2348" as="sourcePoint" />
+            <mxPoint x="551" y="2364" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--261" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.44;entryY=1.133;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.027;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="497" y="2999" as="sourcePoint" />
+            <mxPoint x="553" y="3015" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--262" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.44;entryY=1.133;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.027;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="497" y="3658" as="sourcePoint" />
+            <mxPoint x="553" y="3674" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K71paMH0ZI0jcNfA3QA--263" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.44;entryY=1.133;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.027;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="4319" as="sourcePoint" />
+            <mxPoint x="546" y="4335" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
