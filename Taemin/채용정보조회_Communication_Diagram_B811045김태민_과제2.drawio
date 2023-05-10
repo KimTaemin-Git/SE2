@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T05:40:13.480Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="glcj9Kon8tZEfRg0h8d2" version="21.2.9" type="device">
+<mxfile host="app.diagrams.net" modified="2023-05-10T09:03:37.954Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="_E1thRcHnPTnJB_yAJw4" version="21.2.9" type="device">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1290" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,8 +40,8 @@
             <mxPoint x="350" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YSP_uSWVFn_qr2q9FEzM-9" value="1 *[For all Companies]: getCompanyInfo()&lt;br&gt;3.1.1 listRecruitinfo()&lt;br&gt;3.1.3 *[For all Recruitinfos]: sortbyCompanyName()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="YSP_uSWVFn_qr2q9FEzM-15" vertex="1">
-          <mxGeometry x="95" y="100" width="300" height="60" as="geometry" />
+        <mxCell id="YSP_uSWVFn_qr2q9FEzM-9" value="1 *[For all Companies]: getCompanyInfo()&lt;br&gt;3.1.1 listRecruitinfo()&lt;br&gt;3.1.3 *[For all Recruitinfos]: getCompanyInfo()&lt;br&gt;3.1.4 *[For all Recruitinfos]: sortbyCompanyName()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="YSP_uSWVFn_qr2q9FEzM-15" vertex="1">
+          <mxGeometry x="95" y="95" width="300" height="70" as="geometry" />
         </mxCell>
         <mxCell id="YSP_uSWVFn_qr2q9FEzM-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="YSP_uSWVFn_qr2q9FEzM-15" source="YSP_uSWVFn_qr2q9FEzM-1" target="YSP_uSWVFn_qr2q9FEzM-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -73,8 +73,8 @@
             <mxPoint x="390" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YSP_uSWVFn_qr2q9FEzM-20" value="3.1.2 *[For all Companies Recruitinfos date &amp;lt; deadline]: getDeadlineInfolist()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="YSP_uSWVFn_qr2q9FEzM-15" vertex="1">
-          <mxGeometry x="560" y="110" width="430" height="30" as="geometry" />
+        <mxCell id="YSP_uSWVFn_qr2q9FEzM-20" value="3.1.2 *[For all Companies Recruitinfos date &amp;lt; deadline]: getRecruitInfolist()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="YSP_uSWVFn_qr2q9FEzM-15" vertex="1">
+          <mxGeometry x="560" y="110" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YSP_uSWVFn_qr2q9FEzM-16" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -100,10 +100,10 @@
         <mxCell id="LTDyTWsyqPyUV4bUGbs5-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Control::Recruitinquiry&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;showRecruitInfo()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="350" y="570" width="190" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="LTDyTWsyqPyUV4bUGbs5-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Entry&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Company&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;companyName&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;companyJob&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;companyPosition&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;getCompanyInfo()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;listRecruitInfo()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;sortbyCompanyName()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="235" y="750" width="190" height="150" as="geometry" />
+        <mxCell id="LTDyTWsyqPyUV4bUGbs5-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Entity&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Company&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;companyName&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;companyWork&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;getCompanyInfo()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;listRecruitInfo()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;sortbyCompanyName()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="235" y="780" width="190" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="LTDyTWsyqPyUV4bUGbs5-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Entry&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Recruitinfo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Deadline&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;NumberofPeople&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;getDeadlineInfolist()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="LTDyTWsyqPyUV4bUGbs5-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Entity&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Recruitinfo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Deadline&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Position&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;NumberOfPeople&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;getRecruitInfoInfolist()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="540" y="780" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="LTDyTWsyqPyUV4bUGbs5-11" value="채용정보 제공" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
