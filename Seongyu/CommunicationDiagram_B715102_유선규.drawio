@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T23:57:26.786Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="uhrmAoiJn-aW5GBJSdyl" version="21.2.9" type="google">
+<mxfile host="app.diagrams.net" modified="2023-05-11T08:17:16.133Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="W7zJGuvh46T-Jpzgmtwe" version="21.2.9" type="google">
   <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -253,8 +253,8 @@
             <mxPoint x="255" y="1605" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K71paMH0ZI0jcNfA3QA--100" value="2.1 reviseRecruitInfo()" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="261" y="1547" width="122.5" height="15" as="geometry" />
+        <mxCell id="K71paMH0ZI0jcNfA3QA--100" value="2.1 showRecruitInfoDetail()&lt;br data-darkreader-inline-border=&quot;&quot; style=&quot;border-color: var(--darkreader-border--border-color); --darkreader-inline-border: var(--darkreader-border--darkreader-border--border-color);&quot;&gt;3.1 reviseRecruitInfo()" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261" y="1547" width="169" height="15" as="geometry" />
         </mxCell>
         <mxCell id="K71paMH0ZI0jcNfA3QA--101" value="채용정보 수정하기" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=160;height=20;" vertex="1" parent="1">
           <mxGeometry y="1280" width="480" height="520" as="geometry" />
@@ -289,8 +289,8 @@
             <mxPoint x="227.5" y="1535" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K71paMH0ZI0jcNfA3QA--109" value="2. reviseRecruitInfo()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1348" width="130" height="30" as="geometry" />
+        <mxCell id="K71paMH0ZI0jcNfA3QA--109" value="2. selectCompany()&lt;br&gt;3. reviseRecruitInfo()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="157.5" y="1343" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="K71paMH0ZI0jcNfA3QA--110" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -298,8 +298,8 @@
             <mxPoint x="150.5" y="1715" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K71paMH0ZI0jcNfA3QA--121" value="2.1.1.1: reviseRecruitInfo()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="325" y="1655" width="160" height="30" as="geometry" />
+        <mxCell id="K71paMH0ZI0jcNfA3QA--121" value="3.1.1: reviseRecruitInfo()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1655" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K71paMH0ZI0jcNfA3QA--260" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -355,7 +355,7 @@
         <mxCell id="EixyRkAgwoJFA63Q9zNU-28" value="채용정보 삭제하기" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=160;height=20;" vertex="1" parent="1">
           <mxGeometry x="520" y="1280" width="470" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="EixyRkAgwoJFA63Q9zNU-29" value="DelRecruit:RecruitInfo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EixyRkAgwoJFA63Q9zNU-29" value=":RecruitInfo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="860" y="1724" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EixyRkAgwoJFA63Q9zNU-30" value=":Company" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -385,7 +385,7 @@
             <mxPoint x="680" y="1725" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EixyRkAgwoJFA63Q9zNU-40" value="&lt;span style=&quot;text-align: left;&quot;&gt;2.1.1: listRecruitInfo()&lt;/span&gt;&lt;br data-darkreader-inline-border=&quot;&quot; style=&quot;border-color: var(--darkreader-border--border-color); text-align: left; --darkreader-inline-border: var(--darkreader-border--darkreader-border--border-color);&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;3.1.1: deleteDelRecruit()&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EixyRkAgwoJFA63Q9zNU-40" value="&lt;span style=&quot;text-align: left;&quot;&gt;2.1.1: listRecruitInfo()&lt;/span&gt;&lt;br data-darkreader-inline-border=&quot;&quot; style=&quot;border-color: var(--darkreader-border--border-color); text-align: left; --darkreader-inline-border: var(--darkreader-border--darkreader-border--border-color);&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;3.1.1: deleteRecruitInfo()&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="1685" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EixyRkAgwoJFA63Q9zNU-69" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="K71paMH0ZI0jcNfA3QA--2" target="K71paMH0ZI0jcNfA3QA--1">
@@ -403,7 +403,7 @@
             <mxPoint x="930" y="1755" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EixyRkAgwoJFA63Q9zNU-72" value="3.1.1.1: RecruitInfo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="EixyRkAgwoJFA63Q9zNU-71">
+        <mxCell id="EixyRkAgwoJFA63Q9zNU-72" value="3.1.1.1: ~RecruitInfo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="EixyRkAgwoJFA63Q9zNU-71">
           <mxGeometry x="-0.1956" y="3" relative="1" as="geometry">
             <mxPoint x="13" y="-22" as="offset" />
           </mxGeometry>
@@ -458,7 +458,7 @@
           <mxGeometry x="255" y="2102.5" width="185" height="20" as="geometry" />
         </mxCell>
         <mxCell id="OpeE6zxOzzpMG_I_0L6V-42" value="마감된 채용정보 리스트 조회" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=178;height=20;" vertex="1" parent="1">
-          <mxGeometry y="1840" width="520" height="520" as="geometry" />
+          <mxGeometry y="1840" width="540" height="520" as="geometry" />
         </mxCell>
         <mxCell id="OpeE6zxOzzpMG_I_0L6V-43" value=":RecruitInfo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="225" y="2290" width="120" height="60" as="geometry" />
@@ -479,7 +479,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OpeE6zxOzzpMG_I_0L6V-47" value="&lt;span style=&quot;text-align: left;&quot;&gt;2.1.2 listRecruitInfo()&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="2240.5" width="130" height="30" as="geometry" />
+          <mxGeometry y="2240" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OpeE6zxOzzpMG_I_0L6V-48" value="1. startInterface()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="95" y="2112.5" width="110" height="30" as="geometry" />
@@ -506,8 +506,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OpeE6zxOzzpMG_I_0L6V-53" value="2.1.3 [Date &amp;lt; Deadline]: getRecruitInfolist()&lt;br data-darkreader-inline-border=&quot;&quot; style=&quot;border-color: var(--darkreader-border--border-color); text-align: left; --darkreader-inline-border: var(--darkreader-border--darkreader-border--border-color);&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;2.1.4: sortbyDeadline()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="280" y="2230.5" width="250" height="40" as="geometry" />
+        <mxCell id="OpeE6zxOzzpMG_I_0L6V-53" value="2.1.3 [(ApplicantsNum == NumberOfPeople)&lt;br&gt;or (Date &amp;gt; Deadline)]: getRecruitInfolist()&lt;br data-darkreader-inline-border=&quot;&quot; style=&quot;border-color: var(--darkreader-border--border-color); text-align: left; --darkreader-inline-border: var(--darkreader-border--darkreader-border--border-color);&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;2.1.4: sortbyDeadline()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="2220.5" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OpeE6zxOzzpMG_I_0L6V-55" value="회사 회원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="642.5" y="1865" width="30" height="60" as="geometry" />
@@ -547,7 +547,7 @@
           <mxGeometry x="821" y="2107" width="122.5" height="15" as="geometry" />
         </mxCell>
         <mxCell id="OpeE6zxOzzpMG_I_0L6V-63" value="채용정보 마감하기" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=160;height=20;" vertex="1" parent="1">
-          <mxGeometry x="560" y="1840" width="670" height="520" as="geometry" />
+          <mxGeometry x="560" y="1840" width="800" height="520" as="geometry" />
         </mxCell>
         <mxCell id="OpeE6zxOzzpMG_I_0L6V-64" value=":RecruitInfo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="835" y="2290" width="120" height="60" as="geometry" />
@@ -588,8 +588,8 @@
             <mxPoint x="700.5" y="2290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OpeE6zxOzzpMG_I_0L6V-75" value="2.1.1.1 [ApplicantsNum &amp;gt; NumberOfPeople]: getRecruitInfolist()&lt;br&gt;2.1.1.2: closeRecruitInfo()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="881" y="2225" width="360" height="40" as="geometry" />
+        <mxCell id="OpeE6zxOzzpMG_I_0L6V-75" value="2.1.1.1 [(ApplicantsNum == NumberOfPeople) or (Date &amp;gt; Deadline)]: getRecruitInfolist()&lt;br&gt;2.1.1.2: closeRecruitInfo()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="881" y="2225" width="490" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OpeE6zxOzzpMG_I_0L6V-77" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
