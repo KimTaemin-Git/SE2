@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T12:09:11.912Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="v7qFJmOnJ6TPXjDkXAFa" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-11T12:11:03.613Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="aIxR5lYWvR4oVxmT3q5S" version="21.2.9" type="github">
   <diagram name="페이지-1" id="6HMfdOg1glxMT6PPG5qd">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,6 +6,9 @@
           <mxCell />
         </object>
         <mxCell id="1" parent="0" />
+        <mxCell id="f0SLl6jKX0nZ-P5srRs3-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;지원 정보 관리 시스템&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="190" width="350" height="570" as="geometry" />
+        </mxCell>
         <UserObject label="일반 회원" tooltip="" id="GlG0iQ4OJn0zayJ6-DKC-1">
           <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Helvetica;direction=east;" parent="1" vertex="1">
             <mxGeometry x="80" y="230" width="30" height="60" as="geometry" />
@@ -56,9 +59,6 @@
             <mxPoint x="100" y="670" as="sourcePoint" />
             <mxPoint x="150" y="620" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="f0SLl6jKX0nZ-P5srRs3-1" value="지원 정보 관리 시스템" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="190" width="480" height="550" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
